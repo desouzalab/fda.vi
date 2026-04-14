@@ -23,7 +23,7 @@ Science 4999Z Thesis at Western University.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("acarolcruz/fda.vi")
+devtools::install_github("desouzalab/fda.vi")
 ```
 
 ## Quick Start
