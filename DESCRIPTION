@@ -1,0 +1,24 @@
+Package: fda.vi
+Title: Functional Data Analysis using Variational Inference
+Version: 1.0.0
+Authors@R: c(
+    person("Stephen", "Kinsey", , "ichirokinsey@gmail.com", role = c("aut", "cre")),
+    person("Ana Carolina", "da Cruz", role = "ctb"))
+Description: Implements a variational Expectation-Maximization (VEM) algorithm
+    for smoothing one or multiple functional observations via basis function
+    selection. The algorithm estimates all model parameters simultaneously and
+    automatically, while accounting for within-curve correlation. The approach
+    provides a flexible and computationally efficient framework for smoothing
+    correlated functional data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1)
+Imports: stats, graphics, fda, MASS, scales
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+Config/testthat/edition: 3
+LazyData: true
+VignetteBuilder: knitr
+URL: https://github.com/steviek16/fda.vi, https://steviek16.github.io/fda.vi/
+BugReports: https://github.com/steviek16/fda.vi/issues
