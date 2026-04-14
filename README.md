@@ -21,8 +21,8 @@ Souza and Sousa (2024).
 ## Installation
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("desouzalab/fda.vi")
+# install.packages("pak")
+pak::pak("desouzalab/fda.vi")
 ```
 
 ## Quick Start
