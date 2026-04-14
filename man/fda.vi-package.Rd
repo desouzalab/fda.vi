@@ -11,18 +11,23 @@ Implements a variational Expectation-Maximization (VEM) algorithm for smoothing 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/steviek16/fda.vi}
-  \item \url{https://steviek16.github.io/fda.vi/}
-  \item Report bugs at \url{https://github.com/steviek16/fda.vi/issues}
+  \item \url{https://github.com/acarolcruz/fda.vi}
+  \item Report bugs at \url{https://github.com/acarolcruz/fda.vi/issues}
 }
 
 }
 \author{
 \strong{Maintainer}: Stephen Kinsey \email{ichirokinsey@gmail.com}
 
+Authors:
+\itemize{
+  \item Ana Carolina da Cruz
+}
+
 Other contributors:
 \itemize{
-  \item Ana Carolina da Cruz [contributor]
+  \item Camila de Souza [contributor]
+  \item Pedro Henrique Toledo Oliveira Sousa [contributor]
 }
 
 }
