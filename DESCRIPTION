@@ -2,10 +2,10 @@ Package: fda.vi
 Title: Functional Data Analysis using Variational Inference
 Version: 1.0.0
 Authors@R: c(
-    person("Stephen", "Kinsey", , "ichirokinsey@gmail.com", role = c("aut", "cre")),
-    person("Ana Carolina", "da Cruz", role = c("aut")),
-    person("Camila", "de Souza", role = c("ctb")),
-    person("Pedro Henrique", "Toledo Oliveira Sousa", role = c("ctb")))
+    person("Camila", "de Souza", ,"camila.souza@uwo.ca", role = "cre"),
+    person("Stephen", "Kinsey", role = "aut"),
+    person("Ana Carolina", "da Cruz", role = "aut"),
+    person("Pedro Henrique", "Toledo Oliveira Sousa", role = "aut"))
 Maintainer: Camila de Souza <camila.souza@uwo.ca>
 Description: Implements a variational Expectation-Maximization (VEM) algorithm
     for smoothing one or multiple functional observations via basis function
@@ -23,5 +23,5 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 LazyData: true
 VignetteBuilder: knitr
-URL: https://github.com/acarolcruz/fda.vi
-BugReports: https://github.com/acarolcruz/fda.vi/issues
+URL: https://github.com/desouzalab/fda.vi
+BugReports: https://github.com/desouzalab/fda.vi/issues
