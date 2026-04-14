@@ -1,7 +1,7 @@
 #' GCV Score for a VEM Smooth Fit
 #'
 #' @description
-#' Computes the Generalized Cross-Validation (GCV) score for each curve from a
+#' Computes the generalized cross-validation (GCV) score for each curve from a
 #' \code{vem_smooth} model object. GCV approximates leave-one-out prediction
 #' error and is used by \code{\link{tune_vem_by_gcv}} to select the optimal
 #' number of basis functions \eqn{K}.

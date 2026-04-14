@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/steviek16/fda.vi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/steviek16/fda.vi/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/desouzalab/fda.vi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/desouzalab/fda.vi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 **fda.vi** is an R package that implements a variational
@@ -93,16 +93,15 @@ head(y_pred[[1]])
 
 ## Key Features
 
-- **Automatic Bayesian Basis Selection** via a sparsity-inducing prior
-  on basis coefficients
-- **Uncertainty Quantification** via 95% credible bands, constructed by
-  posteriors of the basis coefficients and inclusion indicators
-- **Correlated (Within-Curve) Error Structure** modelled explicitly
-  using an Ornstein-Uhlenbeck covariance function, with the decay
-  parameter estimated automatically via the M-step
-- **Automatic Selection of Number of Basis Functions K** via generalized
-  cross-validation (GCV) over a user-supplied grid of candidate basis
-  sizes
+- **Automatic Bayesian Basis Selection** via sparsity-inducing priors on basis
+  coefficients
+- **Uncertainty Quantification** via 95% credible bands, constructed using the variational
+  distributions of the basis coefficients and inclusion indicators
+- **Correlated (Within-Curve) Error Structure** modelled explicitly using an
+  Ornstein-Uhlenbeck covariance function, with the decay parameter estimated
+  automatically in the M-step of the variational EM algorithm
+- **Automatic Selection of Number of Basis Functions K** via generalized cross-validation (GCV) over
+  a user-supplied grid of candidate basis sizes
 - **Multiple Basis Types** supported: cubic B-splines and Fourier bases
 - **S3 User Methods**: `plot()`, `predict()`, `coef()`, and `summary()`
   methods for fitted objects

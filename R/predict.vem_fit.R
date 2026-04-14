@@ -2,8 +2,9 @@
 #'
 #' @description
 #' Returns posterior mean curve estimates from a \code{vem_fit} object.
-#' Active basis functions are selected by thresholding the posterior inclusion
-#' probabilities at 0.5. If \code{newdata} is supplied, a new basis matrix is
+#' Active basis functions are selected by applying a 0.5 probability threshold
+#' on the posterior inclusion probabilities. If \code{newdata} is supplied,
+#' a new basis matrix is
 #' constructed at those time points; otherwise the original fitted time points
 #' are used. Predictions are automatically back-transformed if the model was
 #' fitted with \code{center = TRUE} or \code{scale = TRUE}.
