@@ -13,10 +13,6 @@ knitr::opts_chunk$set(
 
 # fda.vi
 
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/desouzalab/fda.vi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/desouzalab/fda.vi/actions/workflows/R-CMD-check.yaml)
-<!-- badges: end -->
-
 **fda.vi** is an R package that implements a variational expectation-maximization (VEM) algorithm
 for smoothing one or multiple functional observations via basis function
 selection. The algorithm estimates all model parameters simultaneously and
