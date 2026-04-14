@@ -31,7 +31,6 @@ pak::pak("desouzalab/fda.vi")
 library(fda.vi)
 
 data(toy_curves)
-set.seed(1234)
 
 fit <- vem_fit(
   y      = toy_curves$y,
